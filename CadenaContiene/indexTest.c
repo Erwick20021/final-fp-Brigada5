@@ -1,4 +1,4 @@
-#include  "../CadenaContiene.c"
+#include  "../CadenaContieneCodigo.c"
 
 int main ()
 {
