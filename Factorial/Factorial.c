@@ -1,16 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+long calcularFactorial(int n)
 {
-	int num = 0;
-	printf("Ingresa un numero entero positivo para calcular su factorial \n ");
-	scanf("%d", &num);
-	if (num < 0) {
+	int n = 0;
+	if (n < 0) {
 		printf("No puedo calcular el factorial de numeros negativos\n");
 	}
 	else {
-		int fac = num - 1;
-		int res = num;
+		int fac = n - 1;
+		int res = n;
 		while (fac >= 1)
 		{
 			res = res * fac;
