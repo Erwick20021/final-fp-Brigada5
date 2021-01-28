@@ -1,3 +1,6 @@
+#include "../Factorial.c"
+
+int main()
 int n = 0;
 calcularFactorial(n), 1
 
