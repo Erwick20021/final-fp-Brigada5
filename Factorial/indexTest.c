@@ -1,6 +1,7 @@
 #include "../Factorial.c"
 
 int main()
+{
 int n = 0;
 calcularFactorial(n), 1
 
@@ -15,3 +16,4 @@ calcularFactorial(n), 6
 
 int n = 11;
 calcularFactorial(n), 39916800
+}
