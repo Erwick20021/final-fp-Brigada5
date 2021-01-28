@@ -1,4 +1,4 @@
-#include  "../CuentaCaracteres.c"
+#include  "../cuentaCaracteres.c"
 
 int main ()
 {
